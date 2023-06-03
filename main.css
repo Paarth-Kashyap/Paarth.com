@@ -314,4 +314,15 @@ footer p{
     .other img{width: 7%;}
     .back{font-size: 15%;}
 
+    .inner h2{
+        font: 200% Bahnschrift Light; 
+        
+    }
+    
+    .inner p{
+        color:white;
+        font: 100% Bahnschrift Light;
+
+    }
+
   }
