@@ -356,5 +356,34 @@ footer p{
         to { width: 60%; }
     }
   }
+@media all and (max-width: 400px) {
+    
+    .intro{font-size:100%;}
+    .nav_menu{font-size:50%;}
+    .about{font-size:40%;}
+    .about_text{font-size:45%;}
+    .projects{font-size:40%;}
+    .contact{font-size:40%;}
+    .item_contact{font-size:30%;}
+    .email a{font-size:50%;}
+    .logo img{height: 1.5rem;}
+    .other img{width: 5%;}
+    .back{font-size: 15%;}
+
+    .inner h2{
+        font: 200% Bahnschrift Light; 
+
+    }
+    
+    .inner p{
+        color:white;
+        font: 100% Bahnschrift Light;
+    }
+
+    @keyframes typing{
+        from { width: 0; }
+        to { width: 60%; }
+    }
+  }
 
 
