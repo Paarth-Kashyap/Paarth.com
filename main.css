@@ -113,8 +113,6 @@ li a:link{
     grid-auto-rows: auto;
     height:100%;
     width:100%;
-
-    
 }
 .item{
     display: flex;
@@ -129,9 +127,7 @@ li a:link{
 .about{
     font-weight: bold;
     color: #58c5ff;
-    background: #f5f5f5;
-    
-    
+    background: #f5f5f5;    
 }
 .about p{
     transition: transform .5s;
