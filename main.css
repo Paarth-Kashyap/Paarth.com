@@ -361,13 +361,13 @@ footer p{
 
     @keyframes typing{
         from { width: 0; }
-        to { width: 60%; }
+        to { width: 80%; }
     }
   }
 @media all and (max-width: 400px) {
     
     .intro{font-size:100%;}
-    .intro h1{font-size:250%;}
+    .intro h1{font-size:150%;}
     .nav_menu{font-size:50%;}
     .about{font-size:40%;}
     .about_text{font-size:45%;}
@@ -396,7 +396,7 @@ footer p{
 
     @keyframes typing{
         from { width: 0; }
-        to { width: 60%; }
+        to { width: 80%; }
     }
   }
 
