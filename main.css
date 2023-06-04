@@ -155,6 +155,10 @@ li a:link{
     text-align: left;
     font-size: 75%;
 }
+.special-word2{
+    color: #58c5ff;
+    font-weight: bold;
+}
 
 /* --------PROJECTS------------- */
 .projects{
