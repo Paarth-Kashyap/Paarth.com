@@ -295,6 +295,9 @@ li a:link{
 .phone{
     grid-area: head2;
 }
+.phone p{
+    font-size: 110%;
+}
 
 /* -------Footer------ */
 footer {
