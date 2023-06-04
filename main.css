@@ -213,7 +213,7 @@ li a:link{
     color:white;
     font: 110% Bahnschrift Light;
 
-    padding-top:15%;
+    padding-top:5%;
 }
 
 
@@ -230,16 +230,20 @@ li a:link{
     backface-visibility: hidden;
 }
 .back{
-    background-color: #162a35d6;
+    background-color: #162a35;
     color: rgb(0, 0, 0);
     padding:5%;
     font-size:70%;
+    
     /* control size of back of flip grid */
     width: 80%;
     height: 80%;
     margin:10% 0 10% 10%;
 
     transform: rotateY(180deg);
+}
+.back p{
+    line-height: 150%;
 }
 
 /* -------CONTACT------ */
@@ -343,7 +347,10 @@ footer p{
 
     .inner h2{
         font: 200% Bahnschrift Light; 
-
+    }
+    .back p, .back h2{
+        line-height: 100%;
+        font-size:40%;
     }
     
     .inner p{
@@ -378,6 +385,11 @@ footer p{
     .inner p{
         color:white;
         font: 100% Bahnschrift Light;
+    }
+
+    .back p, .back h2{
+        line-height: 100%;
+        font-size:30%;
     }
 
     @keyframes typing{
