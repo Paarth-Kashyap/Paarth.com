@@ -358,12 +358,12 @@ footer p{
     }
     .back p, .back h2{
         line-height: 100%;
-        font-size:40%;
+        font-size:30%;
     }
     
     .inner p{
         color:white;
-        font: 100% Bahnschrift Light;
+        font: 10% Bahnschrift Light;
     }
 
     @keyframes typing{
@@ -393,12 +393,12 @@ footer p{
     
     .inner p{
         color:white;
-        font: 100% Bahnschrift Light;
+        font: 10% Bahnschrift Light;
     }
 
     .back p, .back h2{
         line-height: 100%;
-        font-size:30%;
+        font-size:10%;
     }
 
     @keyframes typing{
