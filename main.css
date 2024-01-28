@@ -97,17 +97,23 @@ li a:link{
 #caption{
     color: yellow;
     letter-spacing: .15em;
-    width:min-content;
+    width:fit-content;
+
+    
 }
 
 .typewriter{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+    overflow:hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid red; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
 
     animation: 
-    typing 2s steps(60, end),
+    typing 2.5s steps(160, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -326,9 +332,9 @@ footer p{
 
 
   /* The typing effect */
-@keyframes typing {
+@keyframes typing{
   from { width: 0 }
-  to { width: 23.5%; }
+  to { width: 61%; }
 }
 
 /* The typewriter cursor effect */
