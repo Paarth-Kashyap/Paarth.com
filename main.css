@@ -377,7 +377,7 @@ footer p{
         to { width: 80%; }
     }
   }
-@media all and (max-width: 400px) {
+@media all and (max-width: 440px) {
     
     .intro{font-size:100%;}
     .intro h1{font-size:150%;}
@@ -409,8 +409,6 @@ footer p{
 
     @keyframes typing{
         from { width: 0; }
-        to { width: 80%; }
+        to { width: 42%; }
     }
   }
-
-
